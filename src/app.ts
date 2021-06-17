@@ -1,4 +1,4 @@
-import { ProductType, UserType } from "./constants";
+import { ProductType, UserType } from "./enums";
 import { calculatePrice } from "./price-calculator";
 
 const userType = UserType.COMPANY;

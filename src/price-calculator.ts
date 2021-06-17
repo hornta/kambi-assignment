@@ -1,5 +1,5 @@
 import { isToday } from "date-fns";
-import { ProductType, UserType } from "./constants";
+import { ProductType, UserType } from "./enums";
 
 const ADDITIONAL_PRODUCT_PRICES = {
   [ProductType.NEW]: 25,

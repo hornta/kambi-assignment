@@ -1,6 +1,6 @@
 import { expect } from "@jest/globals";
 import { startOfToday, endOfYesterday } from "date-fns";
-import { ProductType, UserType } from "./constants";
+import { ProductType, UserType } from "./enums";
 import { calculatePrice, calculateRebateAmount } from "./price-calculator";
 
 describe("price calculator", () => {
